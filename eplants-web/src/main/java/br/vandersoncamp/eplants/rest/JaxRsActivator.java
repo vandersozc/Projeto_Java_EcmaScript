@@ -19,6 +19,6 @@ package br.vandersoncamp.eplants.rest;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-@ApplicationPath("/rest")
+@ApplicationPath("/api")
 public class JaxRsActivator extends Application {
 }
