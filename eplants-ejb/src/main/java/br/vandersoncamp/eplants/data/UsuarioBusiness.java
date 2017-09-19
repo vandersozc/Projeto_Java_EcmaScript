@@ -19,7 +19,7 @@ public class UsuarioBusiness {
     }
 
     public List<Usuario> pesquisar() {
-        return service.pesquisar();
+        return service.pesuisar();
     }
 
     public void criar(Usuario usuario) {
