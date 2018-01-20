@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm-8">
+            <h2 class="title">{{vm.title}}</h2>
+            <form>
+                <div class="form-group">
+                    <label>Descrição</label>
+                    <input type="text" 
+                           ng-model="vm.cadastro.descricao" 
+                           class="form-control"
+                           maxlength="80">
+                </div>
+                <div class="form-group">
+                        <label>Observação</label>
+                        <input type="text" 
+                               ng-model="vm.cadastro.observacao"
+                               class="form-control">
+                    </div>
+                <button ng-click="vm.salvar()" type="button" class="btn btn-outline-success">Salvar</button>
+                <button ui-sref="utilizacao.list" type="button" class="btn btn-outline-danger">Cancelar</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Projeto.iml" filepath="$PROJECT_DIR$/Projeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/eplants-ear/eplants-ear.iml" filepath="$PROJECT_DIR$/eplants-ear/eplants-ear.iml" />
       <module fileurl="file://$PROJECT_DIR$/eplants-ejb/eplants-ejb.iml" filepath="$PROJECT_DIR$/eplants-ejb/eplants-ejb.iml" />
       <module fileurl="file://$PROJECT_DIR$/eplants-web/eplants-web.iml" filepath="$PROJECT_DIR$/eplants-web/eplants-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Exemplo Codigo/sistemaBom-2/sistemaBom.iml" filepath="$PROJECT_DIR$/../Exemplo Codigo/sistemaBom-2/sistemaBom.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Exemplo Codigo/sistemaBom-2/sistemaBom-ear/sistemaBom-ear.iml" filepath="$PROJECT_DIR$/../Exemplo Codigo/sistemaBom-2/sistemaBom-ear/sistemaBom-ear.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Exemplo Codigo/sistemaBom-2/sistemaBom-ejb/sistemaBom-ejb.iml" filepath="$PROJECT_DIR$/../Exemplo Codigo/sistemaBom-2/sistemaBom-ejb/sistemaBom-ejb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Exemplo Codigo/sistemaBom-2/sistemaBom-web/sistemaBom-web.iml" filepath="$PROJECT_DIR$/../Exemplo Codigo/sistemaBom-2/sistemaBom-web/sistemaBom-web.iml" />
     </modules>
   </component>
 </project>

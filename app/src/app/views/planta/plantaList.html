@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline" ng-submit="vm.carregar()">
+            <input ng-model="vm.filterValue" class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+        <a class="btn btn-outline-info" ui-sref="planta.new">Novo registro</a>
+    </nav>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Nome comum</th>
+                <th scope="col">Nome científico</th>
+                <th scope="col">Família</th>
+                <th scope="col">Utilização</th>
+                <th scope="col">Local de coleta</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="planta in vm.lista">
+                <td>{{planta.nomeComum}}</td>
+                <td>{{planta.nomeCientifico}}</td>
+                <td>{{planta.familia.descricao}}</td>
+                <td>{{planta.utilizacao.descricao}}</td>
+                <td>{{planta.localColeta}}</td>
+                
+                <td style="text-align: right">
+                    <a class="btn btn-sm btn-outline-success" ui-sref="planta.edit({id: planta.id})">Editar</a>
+                    <button ng-click="vm.excluir(planta.id)" class="btn btn-sm btn-outline-danger" type="button">Excluir</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

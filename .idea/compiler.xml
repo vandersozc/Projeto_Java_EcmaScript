@@ -9,15 +9,17 @@
         <module name="eplants-ear" />
         <module name="eplants-ejb" />
         <module name="eplants-web" />
-        <module name="sistemaBom-ear" />
-        <module name="sistemaBom-ejb" />
-        <module name="sistemaBom-web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
+      <module name="eplants" target="1.7" />
       <module name="eplants-ear" target="1.7" />
       <module name="eplants-ejb" target="1.8" />
       <module name="eplants-web" target="1.7" />
+      <module name="Pedidex" target="1.7" />
+      <module name="Pedidex-ear" target="1.7" />
+      <module name="Pedidex-ejb" target="1.7" />
+      <module name="Pedidex-web" target="1.7" />
       <module name="Projeto" target="1.7" />
       <module name="sistemaBom" target="1.7" />
       <module name="sistemaBom-ear" target="1.7" />

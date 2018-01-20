@@ -1,0 +1,43 @@
+<div class="container-fluid">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm-8">
+            <h2 class="title">{{vm.title}}</h2>
+            <form>
+
+                <div class="form-group">
+                    <label>Documento</label>
+                    <input type="text" 
+                           ng-model="vm.cadastro.documento"
+                           class="form-control"
+                           placeholder="Ex.: 000.000.000-00"
+                           maxlength="11">
+                    <small class="form-text text-muted">Digite um CPF válido.</small>
+                </div>
+                <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" 
+                           ng-model="vm.cadastro.nome" 
+                           class="form-control"
+                           maxlength="50">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" 
+                           ng-model="vm.cadastro.email" 
+                           class="form-control"
+                           placeholder="Ex.: email@provedor.com.br">
+                </div>
+                <div class="form-group">
+                    <label>Telefone</label>
+                    <input type="text" 
+                           ng-model="vm.cadastro.telefone" 
+                           class="form-control"
+                           placeholder="Ex.: (00) 0000-0000"
+                           ui-br-phone-number-mask>
+                </div>
+                <button ng-click="vm.salvar()" type="button" class="btn btn-outline-success">Salvar</button>
+                <button ui-sref="usuario.list" type="button" class="btn btn-outline-danger">Cancelar</button>
+            </form>
+        </div>
+    </div>
+</div>

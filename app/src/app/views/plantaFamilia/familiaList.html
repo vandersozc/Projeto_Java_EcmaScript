@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline" ng-submit="vm.carregar()">
+            <input ng-model="vm.filterValue" class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+        <a class="btn btn-outline-info" ui-sref="familia.new">Novo registro</a>
+    </nav>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Descrição</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="familia in vm.lista">
+                <td>{{$index + 1}} - </td>
+                <td>{{familia.descricao}}</td>
+
+                <td style="text-align: right">
+                    <a class="btn btn-sm btn-outline-success" ui-sref="familia.edit({id: familia.id})">Editar</a>
+                    <button ng-click="vm.excluir(familia.id)" class="btn btn-sm btn-outline-danger" type="button">Excluir</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

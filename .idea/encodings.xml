@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../Exemplo Codigo/Pedidex" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Exemplo Codigo/Pedidex/Pedidex-ear" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Exemplo Codigo/Pedidex/Pedidex-ejb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Exemplo Codigo/Pedidex/Pedidex-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../Exemplo Codigo/sistemaBom-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../Exemplo Codigo/sistemaBom-2/sistemaBom-ear" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../Exemplo Codigo/sistemaBom-2/sistemaBom-ejb" charset="UTF-8" />

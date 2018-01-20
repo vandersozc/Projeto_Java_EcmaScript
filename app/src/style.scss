@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+ellipsis {
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
