@@ -1,0 +1,8 @@
+br/vandersoncamp/resources/PlantaUtilizacaoResource.class
+br/vandersoncamp/resources/UsuarioResource.class
+br/vandersoncamp/eplants/rest/JaxRsActivator.class
+util/JacksonConfig.class
+br/vandersoncamp/resources/PlantaResource.class
+br/vandersoncamp/resources/PlantaFamiliaResource.class
+util/ConstraintViolationMapper.class
+util/EntityNotFoundMapper.class

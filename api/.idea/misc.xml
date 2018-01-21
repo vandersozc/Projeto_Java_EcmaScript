@@ -3,8 +3,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$USER_HOME$/Downloads/Pedidex-master-3/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/eplants-ear/pom.xml" />
+        <option value="$PROJECT_DIR$/eplants-ejb/pom.xml" />
+        <option value="$PROJECT_DIR$/eplants-web/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

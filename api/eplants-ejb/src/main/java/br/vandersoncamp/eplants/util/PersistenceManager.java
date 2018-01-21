@@ -13,5 +13,4 @@ public class PersistenceManager {
     public EntityManager getEntityManager() {
         return em;
     }
-
 }

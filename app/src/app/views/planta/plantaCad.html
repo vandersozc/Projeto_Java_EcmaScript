@@ -7,15 +7,13 @@
                     <label>Nome comum</label>
                     <input type="text" 
                            ng-model="vm.cadastro.nomeComum" 
-                           class="form-control"
-                           maxlength="30">
+                           class="form-control">
                 </div>
                 <div class="form-group">
                     <label>Nome científico</label>
                     <input type="text" 
                            ng-model="vm.cadastro.nomeCientifico" 
-                           class="form-control"
-                           maxlength="30">
+                           class="form-control">
                 </div>
                 <div class="form-group">
                     <label>Família</label>
@@ -26,7 +24,7 @@
                 <div class="form-group">
                     <label>Utilização</label>
                     <input type="text" 
-                           ng-model="vm.cadastro.utilizacao" 
+                           ng-model="vm.cadastro.utilizacao.descricao" 
                            class="form-control">
                 </div>
                 <div class="form-group">
@@ -38,19 +36,21 @@
                 <div class="form-group">
                     <label>Data da coleta</label>
                     <input type="text"
-                            ng-flatpickr data-date-format="d/m/Y H:i" 
-                            enable-time time24hr 
+                            
                             ng-model="vm.cadastro.dataColeta" 
                             class="form-control"
-                            placeholder="Ex.: dd/mm/aaaa"
-                            maxlength="10">
+                            placeholder="Ex.: dd/mm/aaaa">
                 </div>
                 <div class="form-group">
                     <label>Observação</label>
+                    <input type="text" 
+                           ng-model="vm.cadastro.observacao" 
+                           class="form-control">
+                    <!--
                     <textarea class="form-control" 
                             rows="2"
                             ng-model="vm.cadastro.observacao">
-                    </textarea>
+                    </textarea>-->
                 </div>
                 <button ng-click="vm.salvar()" type="button" class="btn btn-outline-success">Salvar</button>
                 <button ui-sref="planta.list" type="button" class="btn btn-outline-danger">Cancelar</button>

@@ -5,7 +5,7 @@ export default class PlantaListController {
     constructor(PlantaService, Notification) {
         this.filterField = 'nomeComum'
         this.filterValue = ''
-        this.order = 'nomeComun'
+        this.order = 'nomeComum'
         this.lista = []
         this._service = PlantaService
         this._notify = Notification

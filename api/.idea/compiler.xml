@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eplants-ear" />
-        <module name="eplants-ejb" />
-        <module name="eplants-web" />
+        <module name="Pedidex-ear" />
+        <module name="Pedidex-ejb" />
+        <module name="Pedidex-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +16,10 @@
       <module name="eplants-ear" target="1.7" />
       <module name="eplants-ejb" target="1.7" />
       <module name="eplants-web" target="1.8" />
+      <module name="Pedidex" target="1.7" />
+      <module name="Pedidex-ear" target="1.7" />
+      <module name="Pedidex-ejb" target="1.7" />
+      <module name="Pedidex-web" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
